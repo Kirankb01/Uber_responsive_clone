@@ -1,69 +1,55 @@
-.apps-first-div{
-  display: flex;
-  background-color: white;
-  align-items: center;
-  padding: 0;
-}
-
-.apps-second-div{
-  display: flex;
-  align-items: center;
-  background-color: white;
-  /* padding: 0; */
-  /* margin-right: 40px; */
-}
-
 .apps{
-  background-color: rgb(243, 243, 243);
   display: flex;
-  
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
-.apps h2{
+.apps h1{
+  margin-top: 70px;
   padding-left: 60px;
-  padding-top: 70px;
-  padding-bottom: 40px;
-  width: 500px;
+  font-weight: bold;
+  color: black;
 }
+.border img{
+  height: 170px;
+  width: 170px;
+}
+.border{
+  display: flex;
+  padding: 20px;
+  border: none !important;
+}
+.download-info{
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+}
+.download-info h2{
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.download-info p{
+  padding-left: 10px;
+}
+.my-custom-row-left{
+  background-color: white;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.arrow{
+  font-size: 39px;
+  padding-top: 45px;
+}
+@media (max-width:800px){
+  .my-custom-row-left{
+    margin-left: 10px;
+    width: 470px;
+    margin-bottom: 20px;
+  }
+  .apps h1{
+    margin-top: 30px;
+  }
 
-.apps-first-div img{
-  height: 180px;
-  width: 180px;
-  margin-left: 30px;
-  
-}
-.apps-second-div img{
-  height: 180px;
-  width: 180px;
-}
-
-@media (max-width: 768px){
-  .apps h2{
-    padding: 0;
-    width: 400px;
-  }
-  .apps-first-div{
-    width: 400px;
-    margin-right: 0px;
-    margin: 0 !important;
-  }
-  .apps-second-div{
-    width: 400px;
-    margin: 0 !important;
-  }
-  .apps-first-div h2{
-    width: 50px;
-  }
-  .apps-second-div h2{
-    width: 50px;
-  }
-  .socialmedia-leftside{
-    width: 200px;
-    padding-left: 0px;
-  }
-  .qr-apps{
-    width: 420px;
-  }
-  .apps{
-    width: 300px;
-  }
 }
