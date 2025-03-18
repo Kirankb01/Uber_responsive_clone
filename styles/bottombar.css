@@ -1,0 +1,88 @@
+
+
+.section-one{
+  padding-top: 100px;
+}
+
+.section-one h2{
+  padding-bottom: 35px;
+}
+
+.section-one p{
+  padding-bottom: 35px;
+}
+.about-company h3{
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+
+.about-company{
+  margin-bottom: 40px;
+}
+
+.about-company a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+}
+.socialmedia{
+  /* width: 100%; */
+  display: flex;
+  justify-content: start;
+}
+.socialmedia-leftside{
+  /* width: 70%; */
+  display: flex;
+  gap: 70px;
+}
+.socialmedia-leftside img{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.socialmedia-rightside{
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+
+.socialmedia-rightside button{
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border-radius: 14px;
+  background-color: black;border: none;
+}
+.socialmedia-rightside button:hover{
+  background-color: rgb(39, 37, 37);
+}
+.img-playstore img{
+  height: 60px;
+  width: 150px;
+}
+.licence-rightside{
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+}
+.licence-rightside a{
+  color: white ;
+  text-decoration: none;
+}
+
+@media (max-width: 800px){
+  .licence-rightside{
+    justify-content: start;
+  }
+  .socialmedia-rightside{
+    padding-top: 20px;
+    justify-content: start;
+  }
+  .socialmedia-leftside{
+    gap: 55px;
+  }
+}
