@@ -11,8 +11,8 @@
   color: black;
 }
 .border img{
-  height: 170px;
-  width: 170px;
+  height: 35%;
+  width: 35%;
 }
 .border{
   display: flex;

@@ -22,7 +22,7 @@
   
   margin-top: 25px;
   height: 48px;
-  width: 210px;
+  width: 40%;
   background-color: black;
   border: none;
   color: white;
@@ -48,7 +48,7 @@
 }
 .drive-when-you-want-leftside img{
   height: 610px;
-  width: 600px;
+  width: 100%;
 }
 
 @media (max-width: 768px) { /* Applies only to small screens */
@@ -70,5 +70,10 @@
   .drive-when-you-want-rightside a{
     margin-bottom: 30px;
   }
-  
+  .reimagined-h1{
+    font-size: 36px !important;
+  }
+  .drive-when-you-want-rightside button{
+    width: 60% !important;
+  }
 }

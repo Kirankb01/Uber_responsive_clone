@@ -10,6 +10,9 @@
   border-radius: 12px;
   width: 40%;
 }
+.suggestion{
+  width: 100%;
+}
 .content-suggestion{
   width: 65%;
 }
@@ -20,8 +23,8 @@
   align-items: center;
 }
 .img-suggestion img{
-  height: 130px;
-  width: 130px;
+  height: 80%;
+  width: 80%;
 }
 .content-suggestion button{
   margin-bottom: 20px;
